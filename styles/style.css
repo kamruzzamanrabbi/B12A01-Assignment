@@ -2,6 +2,11 @@
 
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
+  background: rgb(245, 248, 255);
+}
+/* all color */
+.dark-1{
+    color: white;
 }
 
 *{
@@ -138,4 +143,44 @@ font-size: 20px;
 font-weight: 400;
 text-align: center;
 padding-bottom: 50px;
+}
+/* ### 5. Let’s Get In Touch Section */
+.section-title{
+    width: 700px;
+    margin-right: 115px;
+    font-size: 80px;
+font-weight: 700;
+text-align: left;
+color: rgb(0, 0, 0);
+}
+
+.get-in-touch{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+input[type="text"], textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 497px;
+    padding-left: 32px;
+    text-align: start;
+    
+    
+}
+form{
+    text-align: left;
+    align-items: start;
+}
+.form-btn{
+    
+width: 530px;
+padding: 19px 101px 19px 101px;
+border-radius: 10px;
+color: white;
+/* Primary Color */
+background: rgb(78, 71, 255);
+
 }
