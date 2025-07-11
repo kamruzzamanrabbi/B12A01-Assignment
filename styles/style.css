@@ -1,40 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  background: rgb(245, 248, 255);
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    background: rgb(245, 248, 255);
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     height: 698px;
-    width: 100%;
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: rgba(78, 71, 255, 0.01),url(Hero-bg);
+    background: rgba(78, 71, 255, 0.01), url(Hero-bg);
 }
 
 /* ### 1. Navbar Section */
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
     margin-top: 50px;
     color: rgb(78, 71, 255);
-margin-left: 150px;
-font-size: 34px;
-font-weight: 900;
+    margin-left: 150px;
+    font-size: 34px;
+    font-weight: 900;
 }
-.btn{
+
+.btn {
     margin-right: 150px;
     margin-top: 50px;
     font-size: 16px;
@@ -47,7 +48,7 @@ font-weight: 900;
 }
 
 /* ### 2. Banner Section */
-.banner-title{
+.banner-title {
     margin-left: 267.5px;
     margin-right: 267.5px;
     margin-top: 140px;
@@ -56,14 +57,16 @@ font-weight: 900;
     color: #252432;
     text-align: center;
 }
-.banner-btn{
+
+.banner-btn {
     align-items: center;
     text-align: center;
     margin-top: 37px;
     margin-bottom: 100px;
 }
-.btn1{
-    
+
+.btn1 {
+    background-color: rgb(78, 71, 255);
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -71,95 +74,211 @@ font-weight: 900;
     border-radius: 10px;
     padding: 12px 36px 12px 36px;
     background: rgb(78, 71, 255);
-    
+
 }
+
 /* main styles */
-main{
+main {
     margin-top: 116px;
     margin-left: 141px;
     margin-right: 159px;
 }
+
 /* ### 3. Action Section */
-.action{
-    width: 100%;
-    display: flex;
+
+.action {
     justify-content: space-between;
     gap: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 137px;
+    margin-top: 137px;
 }
 
-.action-title{
+.action-title {
     font-size: 42px;
-font-weight: 700;
-line-height: 49px;
-text-align: left;
-margin-bottom: 23px;
+    font-weight: 700;
+    margin-bottom: 23px;
+
 }
-.action-sub-title{
+
+.action-sub-title {
     font-size: 24px;
-font-weight: 400;
-line-height: 30px;
-text-align: left;
+    font-weight: 400;
+    margin-bottom: 23px;
+
 }
-.action-img{
+
+.action-img {
     border-radius: 48px;
-    margin-bottom: 116px;
-    width: 100%;
+}
+
+.action-btn {
+    margin-top: 23px;
 }
 
 /* ### 4. Productive Users Section */
-.productive-users{
-    width: 100%;
+.productive-users {
+
     border-radius: 24px;
-background: rgba(78, 71, 255, 0.1);
-margin-bottom: 137px;
+    background: rgba(78, 71, 255, 0.1);
+    margin-bottom: 137px;
 }
-.productive-title{
+
+.productive-title {
     padding-top: 50px;
     margin-bottom: 40px;
     font-size: 38px;
-font-weight: 700;
-line-height: 45px;
-text-align: center;
-color: rgb(37, 36, 50);
+    font-weight: 700;
+
+    text-align: center;
+    color: rgb(37, 36, 50);
 
 }
 
-.centered-flex{
+.centered-flex {
     display: flex;
     justify-content: space-evenly;
 }
-.title{
+
+.title {
     color: rgb(78, 71, 255);
-font-family: Inter;
-font-size: 70px;
-font-weight: 700;
-line-height: 97px;
-}
-.subtitle{
     font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-text-align: center;
-padding-bottom: 50px;
-}
-/* ### 5. Let’s Get In Touch Section */
-.section-title{
-    width: 700px;
-    margin-right: 115px;
-    font-size: 80px;
-font-weight: 700;
-text-align: left;
-color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
 }
 
-.get-in-touch{
+.subtitle {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* ## 🧪 CHALLENGES
+
+### 7. Users’ Feedback Section  */
+.user-feedback {
+    margin-top: 137px;
+}
+
+.user-feedback-heading {
+    margin-bottom: 50px;
+    font-size: 42px;
+    color: rgb(37, 36, 50);
+    font-weight: 700;
+    line-height: 49px;
+    text-align: center;
+}
+
+.box-3 {
     display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.box-model {
+    width: 33.33%;
+    margin-bottom: 137px;
+    box-sizing: border-box;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.lower-bow {
+    display: flex;
+    gap: 12px;
+
+}
+
+.lower-box-p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(117, 117, 117);
+}
+
+.lower-box-p2 {
+    color: rgb(179, 179, 179);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.margin-box {
+    margin-bottom: 24px;
+}
+
+/* ### optional */
+.optional {
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.optional-h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 71px;
+    padding-bottom: 20px;
+}
+
+.optional-p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.optional-btn {
+    border: none;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 36px 12px 36px;
+    margin-bottom: 20px;
+}
+
+.optional-img {
+    border-radius: 48px;
+}
+
+/* ### 5. Let’s Get In Touch Section */
+.section-title {
+
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.get-in-touch {
+    display: flex;
+    gap: 115px;
     text-align: center;
     align-items: center;
-    margin-bottom: 71px;
+    margin: 92px 140px 71px 140px;
+
 }
 
-input[type="text"],textarea{
+input[type="text"],
+textarea {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 20px;
@@ -167,121 +286,83 @@ input[type="text"],textarea{
     width: 497px;
     padding-left: 32px;
     text-align: start;
-    
-    
+
+
 }
-/* ::placeholder{
-    /* color: rgba(0, 0, 0, 0.5);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-text-align: left;
-} */ 
-form{
+
+form {
     text-align: left;
     align-items: start;
 }
-.form-btn{
-    
-width: 530px;
-padding: 19px 101px 19px 101px;
-border: none;
-border-radius: 10px;
-color: white;
-background: rgb(78, 71, 255);
+
+.form-btn {
+
+    width: 530px;
+    padding: 19px 101px 19px 101px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: rgb(78, 71, 255);
 
 }
 
- /* ### 6. Footer Section */ 
-.footer-title{
+
+/* ### 6. Footer Section */
+
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+}
+
+.footer-title {
     color: rgb(78, 71, 255);
-font-family: Inter;
-font-size: 90px;
-font-weight: 900;
-text-align: center;
-padding-top: 104px;
-}
-.footer-subtitle{
-    color: rgb(137, 135, 161);
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 150%;
-text-align: center;
+    font-family: Inter;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 104px;
 }
 
-.link ul{
+.footer-subtitle {
+    margin-bottom: 20px;
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+
+.link ul {
     justify-content: center;
     align-items: center;
     display: flex;
     gap: 48px;
 }
-.link ul li{
+
+.link ul li {
     list-style: none;
 }
-.link ul li a{
+
+.link ul li a {
     text-decoration: none;
     font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-color: rgb(137, 135, 161);
-padding-bottom: 103px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(137, 135, 161);
+
 }
 
+.link {
+    padding-bottom: 104px;
+}
 
-/* ## 🧪 CHALLENGES
-
-### 7. Users’ Feedback Section */
-.user-feedback{
-  margin-top: 137px;
-}
-.user-feedback-heading{
-    margin-bottom: 50px;
-    font-size: 42px;
-    color: rgb(37, 36, 50);
-font-weight: 700;
-line-height: 49px;
-text-align: center;
-}
-.box-3{
-  display: flex;
-  gap: 20px;
-  justify-content: space-around;
-  align-items: start;
-}
-.box-model{
-    box-sizing: border-box;
-border: 1px solid rgb(242, 237, 237);
-border-radius: 14px;
-padding: 24px;
-background: rgba(255, 255, 255, 0.5);
-}
-.lower-bow{
-    display: flex;
-    gap: 12px;
-   
-}
-.lower-box-p{
-    font-family: Inter;
-font-size: 16px;
-font-weight: 600;
-text-align: left;
-color: rgb(117, 117, 117);
-}
-.lower-box-p2{
-    color: rgb(179, 179, 179);
-    font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-text-align: left;
-}
-.margin-box{
- margin-bottom: 24px;
-}
 
 
 /* ### 8. Button Animation  */
-button:hover{
+button:hover {
     cursor: pointer;
     color: red;
     background-color: black;
