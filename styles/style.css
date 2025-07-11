@@ -224,5 +224,49 @@ padding-bottom: 103px;
 }
 /* ### 7. Users’ Feedback Section */
 .user-feedback{
-    
+  margin-top: 137px;
+}
+.user-feedback-heading{
+    margin-bottom: 50px;
+    font-size: 42px;
+    color: rgb(37, 36, 50);
+font-weight: 700;
+line-height: 49px;
+text-align: center;
+}
+.box-3{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: start;
+}
+.box-model{
+    box-sizing: border-box;
+border: 1px solid rgb(242, 237, 237);
+border-radius: 14px;
+padding: 24px;
+background: rgba(255, 255, 255, 0.5);
+}
+.lower-bow{
+    display: flex;
+    gap: 12px;
+   
+}
+.lower-box-p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+text-align: left;
+color: rgb(117, 117, 117);
+}
+.lower-box-p2{
+    color: rgb(179, 179, 179);
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+/* box margin */
+.margin-box{
+ margin-bottom: 24px;
 }
